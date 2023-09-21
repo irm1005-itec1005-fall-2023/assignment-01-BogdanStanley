@@ -1,37 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
-
-    <!-- Set the charset we're using to UTF-8 -->
+    <title>Assignment 01 - Bogdan Stanley</title>
     <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Specifies the document mode for Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
-    doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
     <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
-      */
       body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2rem;
         line-height: 1.6;
       }
-      /*
-        These styles make sure that any super wide images
-        don't overflow the page width
-      */
       img {
         width: 100%;
         display: block;
@@ -39,7 +18,77 @@
       }
     </style>
   </head>
+  <header>
+    <h2>Greenscape</h2>
+    <!--logo-->
+    <img src="" />
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
+      </ul>
+    </nav>
+  </header>
   <body>
+    <h1>Welcome</h1>
+    <h2>A little about us</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptatibus, quibusdam, quia, voluptatem voluptatum quod quos
+      exercitationem voluptate quas doloribus quidem. Quisquam voluptatibus,
+      quibusdam, quia, voluptatem voluptatum quod quos exercitationem voluptate
+      quas doloribus quidem.
+    </p>
+    <button>Learn More</button>
+    <div>
+    <h2>Our Services</h2>
+    <ul>
+      <!--change images-->
+      <li>Sodding</li>
+      <img src="https://picsum.photos/200/300" alt="randomly generated image"/>
+      <li>Landscaping</li>
+      <li>Patio & Interlocking</li>
+      <li>Grass Cutting</li>
+    </ul>
+  </div>
+    <h2>Our Team</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, itaque labore incidunt in perferendis ullam maiores qui a, quos eos reprehenderit dolore. Eaque, rerum inventore ea voluptatem quis et optio?</p>
+    <ul>
+      <li>John Doe</li>
+      <li>Jane Doe</li>
+      <li>John Smith</li>
+      <li>Jane Smith</li>
+    </ul>
+    <h2>Service Area</h2>
+    <!--change image-->
+    <img src="https://picsum.photos/200/300" alt="Map of Ottawa"/>
+    <h2>Testimonials</h2>
+    <h2>Leave Feedback</h2>
+    <form>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="John Doe" autocomplete="name"/>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" autocomplete="email" required/>
+      <label for="phone">Phone</label>
+      <input id="phone" type="tel" autocomplete="tel"/>
+    </fieldset>
+    <fieldset>
+     <legend>Provide Feedback</legend>
+     <label for="subject">Subject</label>
+      <select id="subject" type="text" required>
+        <option value="sodding">Sodding</option>
+        <option value="landscaping">Landscaping</option>
+        <option value="patio">Patio & Interlocking</option>
+        <option value="grasscutting">Grass Cutting</option>
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" rows="10" cols="50" placeholder="Your message here - 150 character max" maxlength="150"></textarea>
+      <button>Submit</button>
+    </fieldset>
+    </form>
+
     <!--
 
       LIST ANY CITATIONS HERE
@@ -55,6 +104,5 @@
 
     -->
 
-    <h1>Assignment 01 - To Be Completed</h1>
   </body>
 </html>
