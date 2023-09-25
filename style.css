@@ -57,10 +57,10 @@ header p{
     max-width:150px;
     max-height: 150px;
     }
- .services ul{
-    display: flex;
-    list-style: none;
-    }
+    .services ul{
+        display: flex;
+        list-style: none;
+        }
 footer{
     background-color: rgb(6, 80, 32);
     color:aliceblue;
