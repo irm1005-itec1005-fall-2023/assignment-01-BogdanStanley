@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .hero {
+   background-color: rgb(6, 80, 32);
+   color:aliceblue
+  }
+  .hero {
+    padding: 1rem;
+    text-align: center;
+  }
+  .hero img {
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+  }
+  .hero button {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(6, 80, 32);
+    color:aliceblue;
+    border: white solid 2px;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+
+header img{
+    width: 5%;
+    display: block;
+    float: left;
+}
+header h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    color:rgb(5, 101, 38);
+}
+header ul,a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: green;
+}
+header p{
+    color:rgb(80, 161, 93);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.services img{
+    max-width:150px;
+    max-height: 150px;
+    }
+ .services ul{
+    display: flex;
+    list-style: none;
+    }
+footer{
+    background-color: rgb(6, 80, 32);
+    color:aliceblue;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    }
+footer img {
+    width: 5%;
+    display: block;
+    float: left;
+    }
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: green;
+    }
+    .contact p{
+        font-size: 1rem;
+        text-align: left;
+    }

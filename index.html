@@ -5,48 +5,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2rem;
-        line-height: 1.6;
-      }
-      img {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
-<body
+ <!--sources
+  https://www.w3schools.com/css/css_link.asp
+  https://www.w3schools.com/howto/howto_css_hero_image.asp
+  https://images.pexels.com/photos/1590336/pexels-photo-1590336.jpeg
+-->
+
+<body>
   <header>
-    <!--add a hero (big image)-->
-    <h2>Greenscape</h2>
-    <!--logo-->
-    <img src="" />
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
+        <img src="https://cdn.discordapp.com/attachments/1013966635608055869/1155975925918339166/leaf.png"/>
+        <h2>Greenscape</h2> 
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>    
   </header>
   <main>
-  <h1>Welcome</h1>
+    <section class="hero">
+  <h1>The Landscaping Company You Need</h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, modi aut impedit voluptatem sapiente, tempore unde fugit velit excepturi aliquid laudantium ullam adipisci nam ad incidunt, culpa optio possimus saepe!</p>  
+<img src="https://cdn.discordapp.com/attachments/1013966635608055869/1155975925918339166/leaf.png"/>
+<button>Learn More</button>
+  </section>
     <h2>A little about us</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatibus, quibusdam, quia, voluptatem voluptatum quod quos exercitationem voluptate quas doloribus quidem. Quisquam voluptatibus, quibusdam, quia, voluptatem voluptatum quod quos exercitationem voluptate quas doloribus quidem.</p>
-    <button>Learn More</button>
-    <section>
+    <section class="services">
     <h2>Our Services</h2>
     <ul>
-      <!--change images-->
       <li>Sodding</li>
-      <img src="https://picsum.photos/200/300" alt="randomly generated image"/>
+      <img src="https://images.pexels.com/photos/5231237/pexels-photo-5231237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of sodding installation"/>
       <li>Landscaping</li>
+      <img src="https://images.pexels.com/photos/242265/pexels-photo-242265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of garden"/>
       <li>Patio & Interlocking</li>
+      <img src="https://images.pexels.com/photos/10831661/pexels-photo-10831661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of a stone pathway"/>
       <li>Grass Cutting</li>
+     <img src="https://images.pexels.com/photos/6728933/pexels-photo-6728933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image of a man mowing a lawn"/>
     </ul>
+    </section>
     <section>
     <h3>Prices</h3>
     <table>
@@ -75,11 +75,9 @@
         </tbody>
     </table>
   </section>
-  </section>
     <h2>Our Team</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, itaque labore incidunt in perferendis ullam maiores qui a, quos eos reprehenderit dolore. Eaque, rerum inventore ea voluptatem quis et optio?</p>
     <ul>
-      <!--change images-->
       <li>John Doe</li>
       <li>Jane Doe</li>
       <li>John Smith</li>
@@ -88,8 +86,8 @@
   </section>
   <section>
     <h2>Service Area</h2>
-    <!--change image-->
-    <img src="https://picsum.photos/200/300" alt="Map of Ottawa"/>
+    <img src="https://cdn.discordapp.com/attachments/1013966635608055869/1155992569981964379/image.png" alt="Map of Ottawa"/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis repellat soluta amet itaque minus neque impedit quia earum vitae saepe doloremque sequi nostrum, ducimus a dolore provident labore nesciunt aperiam?</p>
   </section>
 <section>
     <h2>Testimonials</h2>
@@ -126,20 +124,22 @@
   
 
     <footer>
+      <img src="https://cdn.discordapp.com/attachments/1013966635608055869/1155975925918339166/leaf.png"/>
       <h2>Greenscape</h2>
-      <!--logo-->
-      <img src="" />
+     
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>    
+  <secion class="contact">
       <h3>Contact Us</h3>
       <p>Phone: 613-555-1234</p>
       <p>Email: greenscape@gmail.com</p>
       <p>Address: 123 Bank Street, Ottawa, ON</p>
+      <p>Copyright © 2023 Greenscape. All rights reserved.</p>
+  </secion>
     </footer>
-    <!--
-
-      LIST ANY CITATIONS HERE
-
-        * A
-        * B
-
-    -->
 </html>
